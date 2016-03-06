@@ -20,7 +20,7 @@ data1$DateTime <- as.POSIXct(datetime)
 
 # create graph
 png("plot4.png", width=480, height=480)
-# create a 2x2 area for four graphs
+# create a 2x2 area for 4 graphs
 par(mfrow=c(2,2)) 
 # row 1, column 1
 plot(data1$DateTime, data1$Global_active_power,
