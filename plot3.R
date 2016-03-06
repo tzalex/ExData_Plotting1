@@ -8,7 +8,7 @@ rm(list=ls(all=TRUE))
 file <- "household_power_consumption.txt"
 data <- read.table(file, header=TRUE, stringsAsFactors=FALSE, sep=";", dec=".",  na.strings=c("?"))
 
-#  convert Date variable
+# convert Date variable
 data$Date <- as.Date(data$Date, format="%d/%m/%Y")
 
 # select only two dates
