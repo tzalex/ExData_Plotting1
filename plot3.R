@@ -4,7 +4,7 @@
 rm(list=ls(all=TRUE))
 
 # load data from the txt file (household_power_consumption.txt)
-# .R code should be on the same folder with the txt file
+# .R code should be in the same folder with the txt file
 file <- "household_power_consumption.txt"
 data <- read.table(file, header=TRUE, stringsAsFactors=FALSE, sep=";", dec=".",  na.strings=c("?"))
 
